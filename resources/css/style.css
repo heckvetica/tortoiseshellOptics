@@ -70,3 +70,35 @@ nav ul li {
     font-size: 2rem;
     line-height: 1.2;
 }
+
+/* === services === */
+
+.services {
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 8rem;
+    width: 5rem;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 3rem;
+    align-items: center;
+}
+
+.icon {
+    max-width: 5rem;
+}
+
+.paper {
+    max-width: 3.5rem;
+}
+
+.textbox {
+    text-align: center;
+    line-height: 1.4;
+}
