@@ -28,7 +28,7 @@ header {
     margin: auto 0;
 }
 
-.logo {
+.logowhite {
     height: 1.5rem;
     padding-left: 2rem;
 }
@@ -132,4 +132,27 @@ h4 {
 
 .philosophy {
     margin-right: 5%;
+}
+
+/* === footer === */
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+footer .container {
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+}
+
+.logoblack {
+    height: 1.5rem;
+}
+
+.footertext {
+    margin-left: 1rem;
 }
