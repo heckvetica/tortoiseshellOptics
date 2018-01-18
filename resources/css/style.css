@@ -6,7 +6,7 @@ html {
     line-height: 1.4;
 }
 
-.container header {
+.container {
     width: 960px;
 }
 
@@ -101,4 +101,35 @@ nav ul li {
 .textbox {
     text-align: center;
     line-height: 1.4;
+}
+
+/* === products === */
+
+.products {
+    display: flex;
+    justify-content: center;
+}
+
+.products .container {
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    background-color: cadetblue;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    width: 10rem;
+    padding: 1.5rem 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.producttext {
+    width: 35%;
+    line-height: 1.4;
+}
+
+.philosophy {
+    margin-right: 5%;
 }
