@@ -46,6 +46,10 @@ nav ul li {
     padding: 1rem 2rem;
 }
 
+.mobilenav {
+    display: none;
+}
+
 /* === hero === */
 .hero {
     background-image: url('../img/glasses-bg.png');
@@ -184,5 +188,84 @@ footer .container {
     .mission h1 {
         padding: .75rem 4rem;
         font-size: 1.33rem;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .title {
+        display: none;
+    }
+
+    .desktopnav {
+        display: none;
+    }
+
+    .mobilenav {
+        display: initial;
+    }
+
+    .hero {
+        background-position: 20%;
+        height: 17rem;
+    }
+
+    .mission {
+        margin-top: 9rem;
+        margin-right: 0;
+    }
+
+    .mission h1 {
+        padding: 1rem;
+        font-size: 1rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .services {
+        margin: 3.77rem auto;
+        flex-direction: column;
+        height: initial;
+    }
+
+    .service {
+        margin-top: 1.55rem;
+    }
+
+    .products {
+        display: block;
+        width: 100%;
+    }
+
+    .products .container {
+        display: block;
+        margin: 0;
+    }
+
+    h4 {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 1rem;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .philosophy {
+        margin: 0;
+    }
+
+    .product {
+        margin-bottom: 4rem; 
+    }
+
+    .producttext {
+        font-size: 0.77rem;
+    }
+
+    .footertext {
+        display: none;
+    }
+
+    footer .container {
+        justify-content: center;
     }
 }
